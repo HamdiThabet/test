@@ -1,0 +1,20 @@
+ALGORITHM CP
+VAR
+V: INTEGER :=0; 
+M: INTEGER :=1;
+C: INTEGER :=0;
+S: STRING;
+BEGIN
+while( S[C] != "."){
+    
+    if(S[C]== " ") {
+        M:= M++;
+    }
+    if (S[C] in ["A","E","O","I","U","Y"]){
+        V:= V++;
+    }
+
+    C := C++;
+}
+END
+()
